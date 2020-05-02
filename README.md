@@ -34,4 +34,4 @@ ATtiny85 pinout (source https://github.com/SpenceKonde/ATTinyCore)
 ## Results
 - Power consumption is very low. Avereage current is 200uA. ![Tested comsuption](./img/power_usage.png).
 - Energy consumption results defer from [Technoblogy](http://www.technoblogy.com/show?KX0&fbclid=IwAR0qujeHHnLwCLaDrUGe500OKDWC_zPyXkE4ueqHWGD06zeFv5_O4Y1dK-k) results. It could be due to the fact that the OLED and DHT are not disconnected from power bus. It could be resolved by powering them from the left free pin.
-[Technoblogy consumption ratings](./img/power_reference.jpg)
+![Technoblogy consumption ratings](./img/power_reference.jpg)

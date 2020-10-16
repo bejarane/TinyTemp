@@ -35,3 +35,6 @@ ATtiny85 pinout (source https://github.com/SpenceKonde/ATTinyCore)
 - Power consumption is very low. Avereage current is 200uA. ![Tested comsuption](./img/power_usage.png).
 - Energy consumption results defer from [Technoblogy](http://www.technoblogy.com/show?KX0&fbclid=IwAR0qujeHHnLwCLaDrUGe500OKDWC_zPyXkE4ueqHWGD06zeFv5_O4Y1dK-k) results. It could be due to the fact that the OLED and DHT are not disconnected from power bus. It could be resolved by powering them from the left free pin.
 ![Technoblogy consumption ratings](./img/power_reference.jpg)
+
+##Updates
+- Device has been running for more than 6 months of uninterrupted discharge. It is not used very often, maybe once or twice a day, but the battery still holds enough charge for the ATtiny and periphericals to operate. During design I estimated a maximum charge-life of 2 years if not used. I would be not amazed if it survives another 6 or 12 months until the Lithium battery dies by self discharge.
